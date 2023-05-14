@@ -1,0 +1,24 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14090.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="2"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="MEMOS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" name="MEMOS" offset="228" length="1193"/> 
+<DataObject PhysicalName="testlike" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="2" offset="1422" length="2074"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="3103011937029557"/>  </Application>

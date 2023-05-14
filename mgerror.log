@@ -1,0 +1,24 @@
+﻿ <-1> 24/04/2023 10:57:03.837     [Error  ] - rt.jar was not found.
+ <239709998422477536> 24/04/2023 11:00:36.940     [Error  ] - Cannot open output PDF file in Write mode: c:\temp\bug.pdf, Program: "הדפסה אחרי משלוח למג'יק.PRINT".
+ Please refer file for detailed log : 
+ <239709998422477536> 24/04/2023 11:00:39.967     [Error  ] - Cannot open output PDF file in Write mode: c:\temp\bug.pdf, Program: "הדפסה אחרי משלוח למג'יק.PRINT".
+ Please refer file for detailed log : 
+ <-1> 30/04/2023 16:24:00.758     [Error  ] - rt.jar was not found.
+ <97998836880450656> 30/04/2023 16:26:58.679     [Error  ] - Failed to open, data source: testlike, Program: "Browse -".
+ Please refer file for detailed log : 
+ <25504000062151016> 30/04/2023 16:27:38.612     [Error  ] - Failed to open, data source: testlike, Program: "Browse -".
+ Please refer file for detailed log : 
+ <25504000062151016> 30/04/2023 16:27:40.434     [Error  ] - Failed to open, data source: testlike, Program: "Browse -".
+ Please refer file for detailed log : 
+ <572771516565406592> 30/04/2023 16:28:17.760     [Error  ] - Failed to open, data source: testlike, Program: "Browse -".
+ Please refer file for detailed log : 
+ <572771516565406592> 30/04/2023 16:28:21.952     [Error  ] - Failed to open, data source: testlike, Program: "Browse -".
+ Please refer file for detailed log : 
+ <108400311056259584> 30/04/2023 16:31:21.434     [Error  ] - No records within defined range, Program: "Browse -".
+ Please refer file for detailed log : 
+ <108400311056259584> 30/04/2023 16:31:21.980     [Error  ] - No records within defined range, Program: "Browse -".
+ Please refer file for detailed log : 
+ <108400311056259584> 30/04/2023 16:31:22.370     [Error  ] - No records within defined range, Program: "Browse -".
+ Please refer file for detailed log : 
+ <573429235157597824> 30/04/2023 16:31:54.996     [Error  ] - No records within defined range, Program: "Browse -".
+ Please refer file for detailed log : 

@@ -1,0 +1,147 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14090.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="2"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="MEMOS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" name="MEMOS">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Columns>
+    <Column id="1" name="TEXT">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="15000H"/>
+        <GuiDisplay id="158">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <MultiLineEdit id="71" val="Y"/>
+            <VerticalScroll id="73" val="Y"/>
+            <AllowCRInData id="74" val="Y"/>
+            <MultilineWordwrapScroll id="455" val="3"/>
+          </PropertyList>
+        </GuiDisplay>
+        <StoredAs id="173" val="1"/>
+        <Size id="174" val="15000"/>
+        <Definition id="175" val="1"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="15000H" Size="15000" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="testlike" Resident="N" UniqueISNConvState="12" data_source="SQLServer" id="2">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="a">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="a"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="a" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="n">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="10"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="n"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="n" PIC_U="10" Size="10" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="V"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>
